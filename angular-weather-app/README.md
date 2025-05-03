@@ -1,59 +1,55 @@
-# WeatherApp
+# Weather App Frontend
+🚧 This is a work in progress - the frontend component of a weather application that is currently under active development. 🚧
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+## Current Status
+This project is in its early stages of development. The basic Angular structure is set up, but core features are not yet implemented. This is a learning project and is actively being worked on.
 
-## Development server
+## Prerequisites
 
-To start a local development server, run:
+Before you begin, ensure you have the following installed:
+- Node.js (v18 or later)
+- npm (v9 or later)
+- Angular CLI (v19.2.4 or later)
 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone git@github.com:asiad96/weather-app.git
+cd weather-app/angular-weather-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## Development
+
+### Starting the Development Server
+
+Run the following command to start a local development server:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navigate to `http://localhost:4200/` in your browser. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## What's Next?
+The following features are planned but not yet implemented:
+- [ ] Weather API integration
+- [ ] User interface design
+- [ ] Core weather display features
+- [ ] Location services
+- [ ] Weather data visualization
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Project Structure
+- `src/` - Contains all source code
+- `src/app/` - Main application code
+- `src/assets/` - Static assets
+- `src/environments/` - Environment-specific configuration
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [Angular Documentation](https://angular.io/docs)
+- [Angular CLI Overview](https://angular.dev/tools/cli)
